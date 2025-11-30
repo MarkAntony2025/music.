@@ -6,7 +6,7 @@ const { Client, GatewayDispatchEvents, Partials } = require("discord.js");
 const { Riffy } = require("riffy");
 const { Spotify } = require("riffy-spotify");
 const config = require("./config.js"); // optional; config can read envs too
-const messages = require("./utils/messages.js");
+const messages = require("./messages.js");
 const emojis = require("./emojis.js");
 
 // Express web server (keeps Render happy / provides health endpoint)
